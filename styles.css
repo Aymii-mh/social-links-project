@@ -1,0 +1,81 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: white;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+main{
+    width: 300px;
+    margin: auto;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 18px;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.upper-section{
+    text-align: center;
+}
+
+#profile-pic{
+    width: 80px;
+    border-radius: 40px;
+}
+
+#profile-data{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+#name{
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#location{
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+#description{
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.lower-section{
+    display:  flex;
+    flex-direction: column;
+    padding: 14px;
+    margin-top: 10px;
+}
+
+#link-btns{
+    margin-bottom: 10px;
+    height: 38px;
+    background-color: hsl(0, 0%, 20%);
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    line-height: 38px;
+    border-radius: 8px;
+    transition: 0.75s;
+}
+#link-btns:hover{
+    color: hsl(0, 0%, 12%);
+    background-color: hsl(75, 94%, 57%);
+}
